@@ -1,0 +1,17 @@
+# compiled output
+/dist
+
+# dependencies
+/node_modules
+
+# Jetbrains
+/.idea
+*.iml
+
+# misc
+npm-debug.log
+package-lock.json
+.ng_pkg_build/
+
+# system
+Thumbs.db

@@ -1,0 +1,38 @@
+{
+    "name": "ngx-image-zoom",
+    "version": "0.1.0",
+    "license": "MIT",
+    "main": "./bundles/ngx-image-zoom.umd.js",
+    "module": "./index.js",
+    "typings": "./index.d.ts",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build --prod",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "packagr": "ng-packagr -p ng-package.json"
+    },
+    "private": true,
+    "dependencies": {
+        "jquery-zoom": "^1.7.20",
+        "rxjs": "^5.5.6",
+        "zone.js": "^0.8.19"
+    },
+    "devDependencies": {
+        "@angular/common": "^5.2.0",
+        "@angular/compiler": "^5.2.0",
+        "@angular/compiler-cli": "^5.2.0",
+        "@angular/core": "^5.2.0",
+        "@angular/platform-browser": "^5.2.0",
+        "@angular/platform-browser-dynamic": "^5.2.0",
+        "codelyzer": "^4.2.1",
+        "ng-packagr": "^2.2.0",
+        "tslint": "^5.9.1",
+        "typescript": "~2.5.3"
+    },
+    "peerDependencies": {
+        "@angular/core": "^5.2.0"
+    }
+}
