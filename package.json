@@ -1,5 +1,5 @@
 {
-    "name": "ngx-image-zoom",
+    "name": "ngx-jquery-zoom",
     "version": "0.1.0",
     "license": "MIT",
     "main": "./bundles/ngx-image-zoom.umd.js",
